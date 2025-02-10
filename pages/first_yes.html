@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>um convite um pouco simples</title>
+  <link rel="stylesheet" href="../style/index.css">
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body>
+        <style>
+          p {
+            font-size: 2rem;
+          }
+          img {
+            border-radius: 1rem;  
+            width: 10rem;
+            height: auto;
+          }
+          #cards {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-top: 2rem;
+          }
+
+          .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2rem;
+            border: 1px solid #ccc;
+            border-radius: 1rem;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+          }
+          @media (max-width: 1020px) { 
+            #cards {
+                flex-direction: column; 
+                align-items: center; 
+            }
+            .card {
+                margin: 1rem; 
+            }
+        }
+          </style>
+  <div id="main-container">
+    <div class="text-container">
+      <h1 class="text">Nossa! Que ótimo, agora falta só mais uma coisa!</h1>
+      <p class="text"> Clique em qual você prefere:</p>
+  
+      <div id="cards">
+        <div class="card">
+          <img src="../assets/sushi.jpg" alt="Sushi">
+          <a href="choice_1.html" class="btn-choice">Sushi</a>
+        </div>
+        
+        <div class="card">
+          <img src="../assets/aperol.jpg" alt="Drinks">
+          <a href="choice_2.html" class="btn-choice">Bar de Drinks</a>
+        </div>
+      </div>
+    </div>
+  </div>
+      
+    </div>
+  </div>
+</body>
+</html>
