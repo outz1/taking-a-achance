@@ -29,3 +29,17 @@ p {
   border-radius: 0.8rem;
 }
 
+
+.btn-choice, .btn-yes, .btn-not {
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.btn-choice.clicked {
+  background-color: #ff5733;
+}
